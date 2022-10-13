@@ -1,19 +1,22 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { NavBar } from "./components/NavBar";
-import { Hero } from "./components/Hero";
-import { Footer } from "./components/Footer";
-import ItemListContainer from "./components/ItemListContainer";
+import React from "react";
+import { Header } from "./components/Header";
+import { Carrito } from "./components/Carrito";
+import { DataProvider } from "./context/DataProvider";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Paginas } from "./components/paginas";
+import "boxicons";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <ItemListContainer greeting="saludos" />
-      <Hero />
-      <h1 className="text-3xl font-bold underline">Hola Mundo!!!!</h1>
-      <Footer />
-    </>
+    <DataProvider>
+      <div className="App">
+        <Router>
+          <Header />
+          <Carrito />
+          <Paginas />
+        </Router>
+      </div>
+    </DataProvider>
   );
 }
 
