@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import Card from "../../images/img08.jpg";
 import { DataContext } from "../../context/DataProvider";
 
 export const Carrito = () => {
@@ -93,7 +92,7 @@ export const Carrito = () => {
 
         <div className="carrito__footer">
           <h3>Total: ${total}</h3>
-          <button className="btn">Payment</button>
+          <button className="btn">Pagar</button>
         </div>
       </div>
     </div>
