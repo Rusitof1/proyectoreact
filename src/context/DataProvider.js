@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect } from "react";
-import  Data  from "Data2.js";
+import Data from "../Data.js";
 
 export const DataContext = createContext();
 
@@ -8,8 +8,6 @@ export const DataProvider = (props) => {
   const [menu, setMenu] = useState(false);
   const [carrito, setCarrito] = useState([]);
   const [total, setTotal] = useState(0);
-
-  console.log(carrito);
 
   useEffect(() => {
     const producto = Data.items;

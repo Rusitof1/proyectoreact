@@ -1,17 +1,18 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
-import Inicio from "./paginas/Inicio";
-import { ProductosList } from "./paginas/Productos";
-import { ProductosDetalles } from "./paginas/Productos/ProductosDetalles";
+import { Routes, Route } from "react-router-dom";
+import Inicio from "./Paginas/Inicio";
+import { ProductosLista } from "./Paginas/Productos";
+import { ProductoItem } from "./Paginas/Productos/ProductoItem";
+import { ProductosDetalles } from "./Paginas/Productos/ProductosDetalles";
 
-export default function Paginas() {
+export function Paginas() {
   return (
     <section>
-      <Switch>
+      <Routes>
         <Route path="/" exact component={Inicio} />
-        <Route path="/productos" exact component={ProductosList} />
+        <Route path="/productos" exact component={ProductosLista} />
         <Route path="/producto/:id" exact component={ProductosDetalles} />
-      </Switch>
+      </Routes>
     </section>
   );
 }
