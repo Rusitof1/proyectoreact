@@ -1,6 +1,6 @@
 import React from "react";
-import { Header } from "./components/Header";
-import { Carrito } from "./components/Carrito";
+import { Header } from "./components/Header/Index";
+import { Carrito } from "./components/Carrito/Index";
 import { DataProvider } from "./context/DataProvider";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Paginas } from "./components/Paginas";

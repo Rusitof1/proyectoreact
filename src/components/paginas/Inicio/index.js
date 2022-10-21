@@ -4,7 +4,7 @@ import Portada from "../../../images/inicio.jpg";
 
 export default function Inicio() {
   return (
-    <div className="inicio">
+    <div className="Inicio">
       <Link to="/">
         <h1>Home</h1>
       </Link>

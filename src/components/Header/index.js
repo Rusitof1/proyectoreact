@@ -27,13 +27,15 @@ export const Header = () => {
           <Link to="/">INICIO</Link>
         </li>
         <li>
-          <Link to="/productos">PRODUCTOS</Link>
+          <Link to="/Productos">PRODUCTOS</Link>
         </li>
       </ul>
-      <div className="cart" onClick={toogleMenu}>
-        <box-icon name="cart"></box-icon>
-        <span className="item__total"> {carrito.length} </span>
-      </div>
+      <Link to="/Carrito">
+        <div className="cart" onClick={toogleMenu}>
+          <box-icon name="cart"></box-icon>
+          <span className="item__total"> {carrito.length} </span>
+        </div>
+      </Link>
     </header>
   );
 };
