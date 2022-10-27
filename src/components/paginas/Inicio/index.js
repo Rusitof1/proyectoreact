@@ -5,7 +5,7 @@ export default function Inicio() {
   return (
     <div className="inicio">
       <h1>|||| ||| || | | | SNEAKERS & SHOES | | | || ||| ||||</h1>
-      <img src={Portada} alt="Portada" />
+      <img src={Portada} alt="portada" />
     </div>
   );
 }
