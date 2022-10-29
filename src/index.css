@@ -283,14 +283,14 @@ header ul li a {
   font-size: 2rem;
   font-weight: bold;
   text-align: start;
-  margin-left: -17rem;
+  margin-left: -8rem;
 }
 .carrito__item box-icon {
   fill: #08a05c;
   width: 40px;
   height: 40px;
   cursor: pointer;
-  margin-top: 0.3rem;
+  margin-top: 0.6rem;
 }
 .carrito__item .cantidad {
   font-size: 2rem;
@@ -309,14 +309,14 @@ header ul li a {
 .carrito__footer h3 {
   font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .carrito__footer .btn {
   display: inline-block;
   padding: 0.3rem 1rem;
   font-size: 1.2rem;
   background-color: #08a05c;
-  border: 0;
+  border: 20;
   outline: 0;
   cursor: pointer;
 }

@@ -3,6 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { initializeApp } from "firebase/app";
+const firebaseConfig = {
+  apiKey: "AIzaSyBnx6Cqxgj67XE9wptDifmw2CetCN9PryE",
+  authDomain: "proyectoreactsneakers4xport.firebaseapp.com",
+  projectId: "proyectoreactsneakers4xport",
+  storageBucket: "proyectoreactsneakers4xport.appspot.com",
+  messagingSenderId: "156917610362",
+  appId: "1:156917610362:web:6b17d812fcb03987ab48c3"
+};
+
+const app = initializeApp(firebaseConfig);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
