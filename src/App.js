@@ -1,10 +1,10 @@
 import React from "react";
-import { Header } from "./components/Header/Index";
-import { Carrito } from "./components/Carrito/Index";
+import { Header } from "./components/Header/index";
+import { Carrito } from "./components/Carrito/index";
 import { DataProvider } from "./context/DataProvider";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Inicio from "./components/paginas/Inicio/Index";
-import { ProductosLista } from "./components/paginas/Productos/Index";
+import Inicio from "./components/paginas/Inicio/index";
+import { ProductosLista } from "./components/paginas/Productos/index";
 import { ProductosDetalles } from "./components/paginas/Productos/ProductosDetalles";
 import "boxicons";
 
@@ -18,7 +18,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Inicio />} />
             <Route exact path="/productos" element={<ProductosLista />} />
-            <Route exact path="/producto/:id" element={<ProductosDetalles />} />
+            <Route exact path="/producto/:params" element={<ProductosDetalles />} />
           </Routes>
         </DataProvider>
       </BrowserRouter>
