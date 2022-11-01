@@ -1,9 +1,9 @@
 import React from "react";
 import { Header } from "./components/Header/Index";
 import { Carrito } from "./components/Carrito/Index";
-import { DataProvider } from "./context/DataProvider";
+import { DataProvider } from "./Context/DataProvider.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Inicio from "./components/paginas/Inicio/Index";
+import Inicio from "./components/paginas/Inicio/index";
 import { ProductosLista } from "./components/paginas/Productos/Index";
 import { ProductosDetalles } from "./components/paginas/Productos/ProductosDetalles";
 import "boxicons";

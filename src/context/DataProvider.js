@@ -1,6 +1,5 @@
 import React, { createContext, useState, useEffect } from "react";
-import Data from "../Data.js";
-
+import { collection, getDocs, getFirestore } from "firebase/firestore";
 export const DataContext = createContext();
 
 export const DataProvider = (props) => {
@@ -8,7 +7,7 @@ export const DataProvider = (props) => {
   const [menu, setMenu] = useState(false);
   const [carrito, setCarrito] = useState([]);
   const [total, setTotal] = useState(0);
-
+  /* 
   useEffect(() => {
     const producto = Data.items;
     if (producto) {
@@ -16,6 +15,14 @@ export const DataProvider = (props) => {
     } else {
       setProductos([]);
     }
+  }, []);
+ */
+  useEffect(() => {
+    const db = getFirestore();
+    const itemsCollection = collection(db, "productos");
+    getDocs(itemsCollection).then((snapshot) => {
+      setProductos(snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
+    });
   }, []);
 
   const addCarrito = (id) => {

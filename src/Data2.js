@@ -6,10 +6,10 @@ const data = {
       title: "Nike LD Waffle Sacai Black Nylon",
       price: 401,
       image:
-        "https://stockx-360.imgix.net/Nike-LD-Waffle-Sacai-Black-Nylon/Images/Nike-LD-Waffle-Sacai-Black-Nylon/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606321430&w=1000",
+        "https://http2.mlstatic.com/D_NQ_NP_755160-MLA51791526492_102022-W.webp",
       category: "nike",
-      img1: "https://stockx-360.imgix.net/Nike-LD-Waffle-Sacai-Black-Nylon/Images/Nike-LD-Waffle-Sacai-Black-Nylon/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1606321430&w=1000",
+      img1: "https://http2.mlstatic.com/D_NQ_NP_755160-MLA51791526492_102022-W.webp",
+      img2: "https://http2.mlstatic.com/D_NQ_NP_755160-MLA51791526492_102022-W.webp",
       cantidad: 1,
     },
     {
@@ -17,10 +17,10 @@ const data = {
       title: "Nike Dunk Low Off-White Pine Green",
       price: 304,
       image:
-        "https://stockx-360.imgix.net/Nike-Dunk-Low-Off-White-Pine-Green/Images/Nike-Dunk-Low-Off-White-Pine-Green/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606319825&w=1000",
+        "https://http2.mlstatic.com/D_NQ_NP_860134-MLA51260577680_082022-W.webp",
       category: "nike",
-      img1: "https://stockx-360.imgix.net/Nike-Dunk-Low-Off-White-Pine-Green/Images/Nike-Dunk-Low-Off-White-Pine-Green/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1606319825&w=1000",
+      img1: "https://http2.mlstatic.com/D_NQ_NP_860134-MLA51260577680_082022-W.webp",
+      img2: "https://http2.mlstatic.com/D_NQ_NP_860134-MLA51260577680_082022-W.webp",
       cantidad: 1,
     },
     {
@@ -28,10 +28,10 @@ const data = {
       title: "Nike Air Force 1 Low Supreme Black",
       price: 475,
       image:
-        "https://stockx-360.imgix.net/Nike-Air-Force-1-Low-Supreme-Box-Logo-Black/Images/Nike-Air-Force-1-Low-Supreme-Box-Logo-Black/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606325289&w=1000",
+        "https://http2.mlstatic.com/D_NQ_NP_655581-MLA48679700631_122021-W.webp",
       category: "nike",
-      img1: "https://stockx-360.imgix.net/Nike-Air-Force-1-Low-Supreme-Box-Logo-Black/Images/Nike-Air-Force-1-Low-Supreme-Box-Logo-Black/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1606325289&w=1000",
+      img1: "https://http2.mlstatic.com/D_NQ_NP_655581-MLA48679700631_122021-W.webp",
+      img2: "https://http2.mlstatic.com/D_NQ_NP_655581-MLA48679700631_122021-W.webp",
       cantidad: 1,
     },
     {
@@ -39,10 +39,10 @@ const data = {
       title: "Nike LD Waffle Sacai White Nylon",
       price: 399,
       image:
-        "https://stockx-360.imgix.net/Nike-LD-Waffle-Sacai-White-Nylon/Images/Nike-LD-Waffle-Sacai-White-Nylon/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606325338&w=1000",
+        "https://http2.mlstatic.com/D_NQ_NP_848421-MLA50876960820_072022-W.webp",
       category: "nike",
-      img1: "https://stockx-360.imgix.net/Nike-LD-Waffle-Sacai-White-Nylon/Images/Nike-LD-Waffle-Sacai-White-Nylon/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1606325338&w=1000",
+      img1: "https://http2.mlstatic.com/D_NQ_NP_848421-MLA50876960820_072022-W.webp",
+      img2: "https://http2.mlstatic.com/D_NQ_NP_848421-MLA50876960820_072022-W.webp",
       cantidad: 1,
     },
     {
@@ -50,10 +50,10 @@ const data = {
       title: "Nike Dunk Low SP Kentucky (2021)",
       price: 405,
       image:
-        "https://stockx-360.imgix.net/Nike-Dunk-Low-SP-Kentucky/Images/Nike-Dunk-Low-SP-Kentucky/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606322330&w=1000",
+        "https://http2.mlstatic.com/D_NQ_NP_815737-MLA49633340124_042022-O.webp",
       category: "nike",
-      img1: " https://stockx-360.imgix.net/Nike-Dunk-Low-SP-Kentucky/Images/Nike-Dunk-Low-SP-Kentucky/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1606322330&w=1000",
+      img1: "https://http2.mlstatic.com/D_NQ_NP_815737-MLA49633340124_042022-O.webp",
+      img2: "https://http2.mlstatic.com/D_NQ_NP_815737-MLA49633340124_042022-O.webp",
       cantidad: 1,
     },
     {
@@ -61,10 +61,10 @@ const data = {
       title: "Nike Dunk Low Off-White University",
       price: 285,
       image:
-        "https://stockx-360.imgix.net/Nike-Dunk-Low-Off-White-University-Red/Images/Nike-Dunk-Low-Off-White-University-Red/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606321824&w=1000",
+        "https://http2.mlstatic.com/D_NQ_NP_960357-MLA48679701123_122021-W.webp",
       category: "nike",
-      img1: "https://stockx-360.imgix.net/Nike-Dunk-Low-Off-White-University-Red/Images/Nike-Dunk-Low-Off-White-University-Red/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1606321824&w=1000",
+      img1: "https://http2.mlstatic.com/D_NQ_NP_960357-MLA48679701123_122021-W.webp",
+      img2: "https://http2.mlstatic.com/D_NQ_NP_960357-MLA48679701123_122021-W.webp",
       cantidad: 1,
     },
     {
@@ -72,10 +72,10 @@ const data = {
       title: "Nike Air Max 2 Light Atmos",
       price: 360,
       image:
-        "https://stockx-360.imgix.net/Nike-Air-Max-2-Light-Atmos/Images/Nike-Air-Max-2-Light-Atmos/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606320966&w=1000",
+        "https://http2.mlstatic.com/D_NQ_NP_677831-MLA51617242033_092022-W.webp",
       category: "nike",
-      img1: "https://stockx-360.imgix.net/Nike-Air-Max-2-Light-Atmos/Images/Nike-Air-Max-2-Light-Atmos/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1606320966&w=1000",
+      img1: "https://http2.mlstatic.com/D_NQ_NP_677831-MLA51617242033_092022-W.webp",
+      img2: "https://http2.mlstatic.com/D_NQ_NP_677831-MLA51617242033_092022-W.webp",
       cantidad: 1,
     },
     {
@@ -83,10 +83,10 @@ const data = {
       title: "Nike Air Force 1 Low CLOT Blue Silk",
       price: 335,
       image:
-        "https://stockx-360.imgix.net/Nike-Air-Force-1-Low-Clot-Blue-Silk/Images/Nike-Air-Force-1-Low-Clot-Blue-Silk/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606325265&w=1000",
+        "https://http2.mlstatic.com/D_NQ_NP_782170-MLA48859544207_012022-W.webp",
       category: "nike",
-      img1: "https://stockx-360.imgix.net/Nike-Air-Force-1-Low-Clot-Blue-Silk/Images/Nike-Air-Force-1-Low-Clot-Blue-Silk/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1606325265&w=1000",
+      img1: "https://http2.mlstatic.com/D_NQ_NP_782170-MLA48859544207_012022-W.webp",
+      img2: "https://http2.mlstatic.com/D_NQ_NP_782170-MLA48859544207_012022-W.webp",
       cantidad: 1,
     },
     {
@@ -94,10 +94,10 @@ const data = {
       title: "Nike Air Max 90 OG Volt (2020)",
       price: 799,
       image:
-        "https://stockx-360.imgix.net/Nike-Air-Max-90-OG-White-Particle-Grey-Volt/Images/Nike-Air-Max-90-OG-White-Particle-Grey-Volt/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606323250&w=1000",
+        "https://http2.mlstatic.com/D_NQ_NP_835665-MLA50876970149_072022-W.webp",
       category: "nike",
-      img1: "https://stockx-360.imgix.net/Nike-Air-Max-90-OG-White-Particle-Grey-Volt/Images/Nike-Air-Max-90-OG-White-Particle-Grey-Volt/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1606323250&w=1000",
+      img1: "https://http2.mlstatic.com/D_NQ_NP_835665-MLA50876970149_072022-W.webp",
+      img2: "https://http2.mlstatic.com/D_NQ_NP_835665-MLA50876970149_072022-W.webp",
       cantidad: 1,
     },
     {
@@ -105,21 +105,10 @@ const data = {
       title: "Nike Dunk High Varsity Maize",
       price: 501,
       image:
-        "https://stockx-360.imgix.net/Nike-Dunk-High-Black-Varsity-Maize/Images/Nike-Dunk-High-Black-Varsity-Maize/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1609445259&w=1000",
+        "https://http2.mlstatic.com/D_NQ_NP_755160-MLA51791526492_102022-W.webp",
       category: "nike",
-      img1: "https://stockx-360.imgix.net/Nike-Dunk-High-Black-Varsity-Maize/Images/Nike-Dunk-High-Black-Varsity-Maize/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1609445259&w=1000",
-      cantidad: 1,
-    },
-    {
-      id: 11,
-      title: "Nike Air Rubber Dunk Off-White UNC",
-      price: 377,
-      image:
-        "https://stockx-360.imgix.net/Nike-Air-Rubber-Dunk-Off-White-UNC/Images/Nike-Air-Rubber-Dunk-Off-White-UNC/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1609438911&w=1000",
-      category: "nike",
-      img1: "https://stockx-360.imgix.net/Nike-Air-Rubber-Dunk-Off-White-UNC/Images/Nike-Air-Rubber-Dunk-Off-White-UNC/Lv2/img",
-      img2: ".jpg?auto=format,compress&q=90&updated_at=1609438911&w=1000",
+      img1: "https://http2.mlstatic.com/D_NQ_NP_755160-MLA51791526492_102022-W.webp",
+      img2: "https://http2.mlstatic.com/D_NQ_NP_755160-MLA51791526492_102022-W.webp",
       cantidad: 1,
     },
   ],
