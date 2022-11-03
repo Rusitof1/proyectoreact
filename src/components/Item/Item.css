@@ -1,0 +1,34 @@
+
+.card {
+    width: 180px;
+    height: 200px;
+    margin: 10px;
+    padding: 1em 2em;
+    border: 2px solid grey;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    border-radius: 15px;
+}
+
+.card-image {
+    width: 130px;
+    height: 130px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+ @media (min-width: 1024px) {
+.card {
+     width: 250px;
+    height: 320px;
+}
+
+.card-image {
+width: 253px;
+height: 253px;
+}} 

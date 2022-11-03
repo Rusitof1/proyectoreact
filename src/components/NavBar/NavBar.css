@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #282c34;
+}
+
+.logo {
+  position: relative;
+  height: 20vmin;
+  left: 20px;
+}
+
+.nav-container {
+  display: flex;
+  position: relative;
+  list-style: none;
+  right: 10px;
+}
+
+.nav-container li {
+  padding: 10px;
+  color: white;
+}
+
+.cart-widget-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media (min-width: 650px) {
+  .nav-container {
+    right: 25px;
+  }
+  .nav-container li {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-container {
+    left: 200px;
+  }
+
+  .nav-container li {
+    padding: 50px;
+  }
+  .total-count {
+    position: relative;
+    left: 50px;
+  }
+}
