@@ -22,10 +22,10 @@ function NavBar() {
       <nav>
         <ul className="nav-container">
           <Link to="/categoria/Poleras" className="link">
-            <li>Poleras</li>
+            <li>Remeras</li>
           </Link>
           <Link to="/categoria/Figuras" className="link">
-            <li>Figuras</li>
+            <li>Funkos</li>
           </Link>
         </ul>
       </nav>
