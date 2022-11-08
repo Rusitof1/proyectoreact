@@ -1,48 +1,52 @@
 .cart-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    min-height: 80vh;  
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  min-height: 80vh;
 }
-.cart-options h2{
-    margin-bottom: 15px ;
-
+.cart-options h2 {
+  margin-bottom: 15px;
 }
-.delete-button, .store-button {
-    width: 150px;
-    height: 50px;
-    margin: 15px;
-    font-size: 1.3rem;
-    line-height: 20px;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
-    color: #fff;;
-    background-color: #d3145a
+.delete-button,
+.store-button {
+  width: 150px;
+  height: 50px;
+  margin: 15px;
+  font-size: 1.3rem;
+  line-height: 20px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #d3145a;
 }
 
 .end-button {
-    width: 250px;
-    height: 50px;
-    margin: 15px;
-    font-size: 1.3rem;
-    line-height: 20px;
-    border-radius: 15px;
-    cursor: pointer;
-    background-color: white;
-    border: 2px solid #d3145a;     
+  width: 250px;
+  height: 50px;
+  margin: 15px;
+  font-size: 1.3rem;
+  line-height: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #d3145a;
+  box-shadow: inset 0, 0, 0, 0 #d3145a;
+  transition: 1s;
+}
+.end-button:hover {
+  box-shadow: inset 300px 0 0 0 #d3145a;
+  transition: 1s;
+  color: white;
 }
 
 .link {
-    text-decoration: none;
-    font-size: 1.2rem;
-
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
-
 @media (min-width: 1024px) {
-
-    .cart-container {
-        min-height: 60vh;
-    }
+  .cart-container {
+    min-height: 60vh;
+  }
 }
